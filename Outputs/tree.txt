@@ -1,0 +1,186 @@
+	
+ - IMPRESSÃO: ÁRVORE SINTÁTICA ABSTRATA
+Programa
+|    Corpo
+|    |    Declaracoes
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    loona
+|    |    |    |    Tipo Agregado
+|    |    |    |    |    1
+|    |    |    |    |    3
+|    |    |    |    |    Tipo Simples
+|    |    |    |    |    |    boolean
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    x
+|    |    |    |    Tipo Simples
+|    |    |    |    |    real
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    chuu
+|    |    |    |    Tipo Simples
+|    |    |    |    |    real
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    y
+|    |    |    |    Tipo Simples
+|    |    |    |    |    integer
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    isabella
+|    |    |    |    Tipo Simples
+|    |    |    |    |    integer
+|    |    |    Declaracao de Variavel
+|    |    |    |    Lista de IDs
+|    |    |    |    |    mateus
+|    |    |    |    Tipo Simples
+|    |    |    |    |    integer
+|    |    Comando Composto
+|    |    |    Lista de Comandos
+|    |    |    |    Atribuicao
+|    |    |    |    |    Variavel
+|    |    |    |    |    |    loona
+|    |    |    |    |    |    Seletor
+|    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    1
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Boolean Literal
+|    |    |    |    |    |    |    |    |    false
+|    |    |    |    Atribuicao
+|    |    |    |    |    Variavel
+|    |    |    |    |    |    isabella
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    1
+|    |    |    |    Atribuicao
+|    |    |    |    |    Variavel
+|    |    |    |    |    |    loona
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    133
+|    |    |    |    |    |    >=
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    5
+|    |    |    |    Atribuicao
+|    |    |    |    |    Variavel
+|    |    |    |    |    |    mateus
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    1
+|    |    |    |    |    |    |    |    /
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    2
+|    |    |    |    Iterativo
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    isabella
+|    |    |    |    |    |    >
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    0
+|    |    |    |    |    Iterativo
+|    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    mateus
+|    |    |    |    |    |    |    <
+|    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    15
+|    |    |    |    |    |    Atribuicao
+|    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    isabella
+|    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    |    isabella
+|    |    |    |    |    |    |    |    |    -
+|    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    2
+|    |    |    |    Condicional
+|    |    |    |    |    Expressao
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    32
+|    |    |    |    |    |    >
+|    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    5
+|    |    |    |    |    Comando Composto
+|    |    |    |    |    |    Lista de Comandos
+|    |    |    |    |    |    |    Atribuicao
+|    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    |    |    +
+|    |    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    |    1
+|    |    |    |    |    |    |    Atribuicao
+|    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    |    |    |    *
+|    |    |    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    Atribuicao
+|    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    y
+|    |    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    |    1.4
+|    |    |    |    |    |    |    |    |    |    |    *
+|    |    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    |    7
+|    |    |    |    |    |    |    Atribuicao
+|    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    |    |    |    |    |    x
+|    |    |    |    |    |    |    |    |    |    |    *
+|    |    |    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    |    |    1
+|    |    |    |    |    Atribuicao
+|    |    |    |    |    |    Variavel
+|    |    |    |    |    |    |    x
+|    |    |    |    |    |    Expressao
+|    |    |    |    |    |    |    Expressao Simples
+|    |    |    |    |    |    |    |    Termo
+|    |    |    |    |    |    |    |    |    Literal
+|    |    |    |    |    |    |    |    |    |    0

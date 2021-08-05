@@ -1,0 +1,5 @@
+	Universidade Federal do Vale do Sao Francisco - Colegiado de Engenharia da Computacao - Compiladores - Prof. Marcus Ramos - 2019.2
+				Alunos: Edjair Aguiar Gomes Filho e Mateus Amorim Silva
+
+- Para inicializar, clique em "Arquivo > Abrir" e escolha o arquivo com extensao .pas que deseja compilar;
+- Os logs de compilacao sao exibidos no terminal, bem como os eventuais erros de compilacao.
